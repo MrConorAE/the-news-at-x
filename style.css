@@ -1,0 +1,57 @@
+/*
+© (copyright) 2021. Available under the GPLv3. See LICENSE for details.
+*/
+
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-feature-settings: "tnum", "cv03", "cv04", "cv09";
+    font-style: italic;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+p#count {
+    font-weight: 600;
+    font-size: 500px;
+    line-height: 100vh;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: 2px white solid;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 15px;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 500px;
+    margin: 0px auto;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+button:disabled {
+    opacity: 10%;
+    cursor: not-allowed;
+}
+
+button:disabled:hover {
+    color: white;
+    background-color: black;
+    opacity: 10%;
+}
